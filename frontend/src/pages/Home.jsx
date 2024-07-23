@@ -26,7 +26,6 @@ export default function Home() {
       .then((res) => {
         if (res.status === 204) {
           alert('Note Deleted!');
-          // getNotes();
         } else {
           alert('Failed to Delete Note!');
         }
